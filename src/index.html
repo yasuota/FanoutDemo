@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SSE demonstartion</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            background-color: #f8f8f8;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Server-Sent Events demonstartion</h1>
+    <ul id="events"></ul>
+    <!-- TextBox -->
+    <input type="text" id="inputText" placeholder="Type in text">
+    <button id="fetchButton">Submit</button>
+    <script>
+        //Server-Sent Events
+        const evtSource = new EventSource('/stream/sse');
+        const eventList = document.querySelector('#events');
+        evtSource.onmessage = (event) => {
+            const newElement = document.createElement("li");
+            newElement.textContent = `message: ${event.data}`;
+            eventList.appendChild(newElement);
+        };
+        //Call Fastly Fanout publish API
+        document.getElementById('fetchButton').addEventListener('click', function () {
+            const url = '/service/$SERVICEID/publish/';
+            // Put the text
+            const inputData = document.getElementById('inputText').value;
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'text/plain'
+                },
+                body: inputData // set the bosy
+            })
+                .then(response => response.text())
+                .then(data => console.log(data))
+                .catch(error => console.error('Error:', error));
+        });
+    </script>
+</body>
+</html>
