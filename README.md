@@ -2,7 +2,16 @@
 
 ## Overview 
 
+https://www.fastly.com/documentation/guides/compute/frameworks/#static-site--jamstack
+
+https://www.fastly.com/documentation/guides/concepts/real-time-messaging/fanout/
+
 Prerequisites: Being able to enable Fastly fanout.
+Front-end frameworks on the Compute platform | Fastly Documentation
+
+
+Pub/Sub at the edge with Fanout | Fastly Documentation 
+
 
 Goal : Create a simple Fanout program with Server-Sent Events like this video.
 
