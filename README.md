@@ -15,7 +15,7 @@ Pub/Sub at the edge with Fanout | Fastly Documentation
 
 Goal : Create a simple Fanout program with Server-Sent Events like this video.
 
-<img src="doc/fanout.gif" width="900">
+<img src="doc/movie.gif" width="1200">
 
 ### Setup 
 
