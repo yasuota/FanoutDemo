@@ -14,16 +14,11 @@ My sample domain : https://possibly-intense-snapper.edgecompute.app/
 
 Feel free to play around with my test domain.
 
-Document : 
-
-- https://www.fastly.com/documentation/guides/compute/frameworks/#static-site--jamstack
-- https://www.fastly.com/documentation/guides/concepts/real-time-messaging/fanout/
+<img src="doc/movie.gif" width="1500">
 
 Here are the simple steps to create the same service."
 
 Prerequisites: Fastly Fanout must be enabled.
-
-<img src="doc/movie.gif" width="1500">
 
 ## Setup  
 
@@ -119,3 +114,8 @@ code ~/fanout_techsession/public/index.html
 ```
 fastly compute publish
 ```
+
+Document : 
+
+- https://www.fastly.com/documentation/guides/compute/frameworks/#static-site--jamstack
+- https://www.fastly.com/documentation/guides/concepts/real-time-messaging/fanout/
