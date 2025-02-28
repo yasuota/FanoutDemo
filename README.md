@@ -2,18 +2,26 @@
 
 ## Overview 
 
-https://www.fastly.com/documentation/guides/compute/frameworks/#static-site--jamstack
+My sample domain : https://possibly-intense-snapper.edgecompute.app/
 
-https://www.fastly.com/documentation/guides/concepts/real-time-messaging/fanout/
+1. First, open the domain above.
 
-Prerequisites: Being able to enable Fastly fanout.
-Front-end frameworks on the Compute platform | Fastly Documentation
+2. Open the same domain in another browser tab or any other device.
 
+3. Type anything in either tab.
 
-Pub/Sub at the edge with Fanout | Fastly Documentation 
+4. Anyone who has the domain open will receive what you typed.
 
+Feel free to play around with my test domain.
 
-Goal : Create a simple Fanout program with Server-Sent Events like this video.
+Document : 
+
+- https://www.fastly.com/documentation/guides/compute/frameworks/#static-site--jamstack
+- https://www.fastly.com/documentation/guides/concepts/real-time-messaging/fanout/
+
+Here are the simple steps to create the same service."
+
+Prerequisites: Fastly Fanout must be enabled.
 
 <img src="doc/movie.gif" width="1500">
 
