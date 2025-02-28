@@ -10,7 +10,7 @@ My sample domain : https://possibly-intense-snapper.edgecompute.app/
 
 3. Type anything in either tab.
 
-4. Anyone who has the domain open will receive what you typed.
+4. Anyone who has the domain open will receive what you typed in real-time, without needing to reload the page.
 
 Feel free to play around with my test domain.
 
