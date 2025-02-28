@@ -1,6 +1,6 @@
 # fanout-demo
 
-## Overview 
+## Usage 
 
 My sample domain : https://possibly-intense-snapper.edgecompute.app/
 
@@ -25,7 +25,7 @@ Prerequisites: Fastly Fanout must be enabled.
 
 <img src="doc/movie.gif" width="1500">
 
-### Setup 
+## Setup  
 
 1. Create a work directory and subdirectory called “pubiic” . 
 
