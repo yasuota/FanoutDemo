@@ -16,11 +16,11 @@ Feel free to play around with my test domain.
 
 <img src="doc/movie.gif" width="1500">
 
-Here are the simple steps to create the same service."
+## Setup  
+
+Here are the simple steps to create the same service.
 
 Prerequisites: Fastly Fanout must be enabled.
-
-## Setup  
 
 1. Create a work directory and subdirectory called “pubiic” . 
 
