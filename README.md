@@ -2,7 +2,7 @@
 
 ## Usage 
 
-My sample domain : https://possibly-intense-snapper.edgecompute.app/
+My sample domain : https://possibly-intense-snapper.edgecompute.app/ (It is available on Chrome. )
 
 1. First, open the domain above.
 
